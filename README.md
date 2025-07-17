@@ -13,7 +13,7 @@ This is a customizable AI chatbot project that allows users to configure their o
 
 1. Clone the project:  
    ```bash  
-   git clone https://github.com/yourusername/custom-ai-chatbot.git  
+   git clone https://github.com/BeiChen2024/custom-ai-chatbot.git  
    cd custom-ai-chatbot  
    ```  
 
