@@ -15,3 +15,33 @@
    ```bash
    git clone https://github.com/yourusername/custom-ai-chatbot.git
    cd custom-ai-chatbot
+2. 安装依赖：
+   ```bash
+   pip install -r requirements.txt
+   ```
+3.复制配置文件并填写你的 API 信息：
+   ```bash
+   cp config/config.example.json config/config.json
+   ```
+4. 编辑 `config/config.json` 文件，填写你的 API key 和模型地址。
+
+5. 运行应用：
+   ```bash
+   python src/app.py
+   ```
+
+6. 打开浏览器访问 `http://localhost:5000`
+
+## 配置说明
+
+编辑 `config/config.json` 文件：
+
+```json
+{
+    "api_key": "your_api_key_here",
+    "model_url": "https://api.example.com/v1/chat/completions",
+    "model_name": "gpt-3.5-turbo",
+    "temperature": 0.7,
+    "max_tokens": 150
+}
+```
